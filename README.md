@@ -1,5 +1,5 @@
 ### Tweet Disaster Classification
-#### This is Kaggle's Competition.
+#### This is Kaggle's Competition. Please do visit and download the data from the competition. [Kaggle Competition](https://www.kaggle.com/competitions/nlp-getting-started/overview)
 
 A complete multi-approach text classification project using:
 ✔ Traditional Machine Learning
@@ -123,6 +123,13 @@ $$\mathcal{J} = \sum_{i,j=1}^{V} f(X_{ij}) (w_i^T \tilde{w}_j + b_i + \tilde{b}_
 
 Where $X_{ij}$ is the co-occurrence count of word $i$ and word $j$, $w$ and $\tilde{w}$ are the word and context vectors, and $f(X_{ij})$ is a weighting function. 
 
+The official GloVe pre-trained vectors are hosted by the Stanford NLP Group.
+
+* **Official GloVe Project Page:** [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)
+* **Recommended Download:** For general English NLP tasks, the **`glove.6B.zip`** file (trained on Wikipedia 2014 + Gigaword 5, 6 Billion tokens) is the standard starting point.
+  
+#### **Project Structure Note**
+After downloading the `.zip` file, unzip it and place the chosen `.txt` file into a dedicated folder (e.g., `embeddings`) within your project root for clean access.
 ---
 
 ### **2. Bidirectional Long Short-Term Memory (Bi-LSTM)**
